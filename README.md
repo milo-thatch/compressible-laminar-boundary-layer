@@ -1,5 +1,5 @@
 ## How to run the code
-- This package computes the self-similar solution of a flat-plate, compressible boundary layer with variable shear viscosity $\mu(T)$ and thermal conductivity $k(T)$, constant Prandtl number Pr, constant Mach number Ma, and constant heat capacity ratio $\gamma$ (Stewartson, 1964). 
+- The code computes the self-similar solution of a flat-plate, compressible boundary layer with variable shear viscosity $\mu(T)$ and thermal conductivity $k(T)$, constant Prandtl number Pr, constant Mach number Ma, and constant heat capacity ratio $\gamma$ (Stewartson, 1964). 
   $$\left(\frac{\mu}{T}F^{\prime\prime}\right)^\prime + FF^{\prime\prime} = 0$$
   $$FT^\prime +\left(\gamma-1\right)\mathrm{Ma}^2 \frac{\mu}{T}\left(F^{\prime\prime}\right)^2 + \mathrm{Pr}^{-1}\left(\frac{k}{T}T^\prime\right)^\prime = 0$$
 - The code uses a standard block-elimination algorithm (Cebeci, 2002).

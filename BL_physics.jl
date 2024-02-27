@@ -6,7 +6,7 @@
 # ordinary differential equations that govern a compressible flat-plate
 # boundary layer with variable viscosity and thermal conductivity
 # The code uses a standard block-elimination algorithm (see Cebeci, 2002)
-# See the README and the attached .pdf for more technical details 
+# See the README for more details 
 # 
 # IMPORTANT
 # to run the code open BL_main.jl and press CTRL+F5

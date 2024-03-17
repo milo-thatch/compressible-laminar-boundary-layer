@@ -1,4 +1,4 @@
-## How to run the code
+## compile and run
 - The code computes the self-similar solution of a flat-plate, compressible boundary layer with variable shear viscosity $\mu(T)$ and thermal conductivity $k(T)$, constant Prandtl number Pr, constant Mach number Ma, and constant heat capacity ratio $\gamma$ (Stewartson, 1964). 
   $$\left(\frac{\mu}{T}F^{\prime\prime}\right)^\prime + FF^{\prime\prime} = 0$$
   $$FT^\prime +\left(\gamma-1\right)\mathrm{Ma}^2 \frac{\mu}{T}\left(F^{\prime\prime}\right)^2 + \mathrm{Pr}^{-1}\left(\frac{k}{T}T^\prime\right)^\prime = 0$$
@@ -33,7 +33,7 @@
 </p>
 
 ---
-## For more information
+## Reads
 
 Cebeci, T. (2002). *Convective Heat Transfer*. Heidelberg: Horizons Pub. ISBN: 9780966846140, LCCN: 2002068512.
 

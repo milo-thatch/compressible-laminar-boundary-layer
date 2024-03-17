@@ -38,7 +38,7 @@ for j in 1:N_ext
     u[j] = 1.0/2.0*((j-1)*h/eta_ext)*(3.0-((j-1)*h/eta_ext)^2)
     v[j] = 3.0/(2.0*eta_ext)*(1.0-((j-1)*h/eta_ext)^2)
     if(alpha0==1.0)
-        g[j] = T_w + (T_w-1.0)*j*h/eta_ext*((j-1)*h/eta_ext-2.0) 
+        g[j] = T_w + (T_w-1.0)*(j-1)*h/eta_ext*((j-1)*h/eta_ext-2.0) 
         p[j] = 2*(T_w-1.0)/eta_ext*((j-1)*h/eta_ext-1.0)
     else
         g[j] = 1.0
@@ -58,7 +58,7 @@ end
 # initial distributions of the viscous, conduction and dissipation factors (Cebeci, 2002)
 for i in 1:N_max
     b[i] = mu(g[i])/g[i]
-    d[i] = (gamma-1.0)*Mach*b[i]
+    d[i] = (gamma-1.0)*Mach*Mach*b[i]
     e[i] = 1.0/Prandtl*mu(g[i])/g[i]
 end
 
